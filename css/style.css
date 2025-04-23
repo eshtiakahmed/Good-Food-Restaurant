@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+font-family: "Work Sans", sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font{
+    font-family: Work Sans;
+}
+
+/* Banner Section Start */
+
+#Hero{
+    height: 500px;
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    text-align: center;
+}
+.Subtitle{
+    font-size: 32PX;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.Title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.Description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #52C303;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* Banner Section End */
+
+/* Card box section start */
+
+#card-box{
+
+}
+.card-info{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.card-subtitle{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #101010;  
+}
+.card-title{
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #101010;
+}
+.cards{
+    width: -5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card{
+   width: 424px;
+   text-align: center; 
+   gap: 5px;
+}
+.card-img img{
+    width: 424px;
+}
+.card-pizza{
+    width: 125px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #cdefad;
+    padding: 15px 8px;
+    border-radius: 10px;
+}
+.Card-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.btn-2{
+    text-align: center;
+    color: #85cc53;
+}
+.btn-text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 7px;
+    background-color: #85cc53;
+}
+
+/* Card box section end */
+
+/* About Us section start */
+
+.About{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid tomato; */
+}
+.about-img{
+    margin: 0 auto;
+}
+.about-description{
+    background-color: beige;
+    background-size: cover;
+    text-align: center;
+    padding: 1px 50px;
+}
+.about-h3{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #101010;
+}
+.about-p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #a19595;
+}
+.about-h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #575555;
+}
+/* About Us section end */
+
+/* Card section start */
+
+.Card{
+   margin-top: 100px;
+   margin-left: 450px;
+   width: 424px;
+   text-align: center; 
+   gap: 5px;
+}
+
+/* Card section end */
+
+/* Social section start */
+
+.social-description{
+    background-color: beige;
+    background-size: cover;
+    text-align: center;
+    padding: 20px 300px;
+    margin-top: 50px;
+}
+
+/* Social section end */
